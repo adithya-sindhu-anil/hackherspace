@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Knowloop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 class="title">KNOWLOOP</h1>
+    <h2 class="tagline">SWIPE. LEARN. REMEMBER</h2>
+  </header>
+
+  <div class="navbar">
+    <button id="menuButton" class="menu-icon">≡</button>
+    <div id="menuOptions" class="menu-items">
+      <a href="index.html">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#help">Help</a>
+    </div>
+    <div class="auth-buttons">
+      <a href="login.html"><button>Login</button></a>
+      <a href="signup.html"><button>Signup</button></a>
+    </div>
+  </div>
+
+  <main>
+    <form id="loginForm">
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+      </div>
+      <button type="submit">Login</button>
+      <button id="nextButton" type="button">Next</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Knowloop | All Rights Reserved</p>
+  </footer>
+
+  <script>
+    document.getElementById("nextButton").addEventListener("click", function() {
+      window.location.href = "upload.html";
+    });
+  </script>
+</body>
+</html>

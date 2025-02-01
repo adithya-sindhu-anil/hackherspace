@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Notes - Knowloop</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.15.349/pdf.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1 class="title">KNOWLOOP</h1>
+    <h2 class="tagline">SWIPE. LEARN. REMEMBER</h2>
+  </header>
+
+  <div class="navbar">
+    <button id="menuButton" class="menu-icon" aria-label="Open menu">≡</button>
+    <div id="menuOptions" class="menu-items">
+      <a href="index.html" aria-label="Home">Home</a>
+      <a href="#about" aria-label="About">About</a>
+      <a href="#contact" aria-label="Contact">Contact</a>
+      <a href="#help" aria-label="Help">Help</a>
+    </div>
+    <div class="auth-buttons">
+      <a href="login.html"><button aria-label="Login">Login</button></a>
+      <a href="signup.html"><button aria-label="Signup">Signup</button></a>
+    </div>
+  </div>
+
+  <main class="upload-container">
+    <h2>Hi there!</h2>
+    <div class="upload-section">
+      <h3>Upload Your Notes</h3>
+      <form id="uploadForm">
+        <div class="format-selection">
+          <label>
+            <input type="radio" name="format" value="pdf" checked>
+            PDF
+          </label>
+          <label>
+            <input type="radio" name="format" value="text">
+            Text
+          </label>
+        </div>
+        <div class="file-upload">
+          <input type="file" id="fileInput" accept=".pdf,.txt" required aria-label="Select file">
+          <div id="fileNameDisplay" class="file-name-display"></div>
+        </div>
+        <button type="submit" id="generateButton" class="upload-button" aria-label="Generate">Generate</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Knowloop | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Display selected file name
+    const fileInput = document.getElementById('fileInput');
+    const fileNameDisplay = document.getElementById('fileNameDisplay');
+
+    fileInput.addEventListener('change', function() {
+      if (this.files && this.files[0]) {
+        fileNameDisplay.textContent = this.files[0].name;
+      } else {
+        fileNameDisplay.textContent = '';
+      }
+    });
+  </script>
+</body>
+</html>

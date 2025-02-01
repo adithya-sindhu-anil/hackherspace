@@ -17,5 +17,8 @@ sized chunks, presented in a scrolling reels format.
 
 ## problem statement and solution
 
-
-
+The rise of short-form media has shortened attention spans and reduced the effectiveness of 
+traditional study methods, making it harder for students to retain and comprehend information.
+KnowLoop addresses this challenge by transforming study materials into engaging, reel-like
+formats that leverage visual and auditory elements. By mimicking the scrolling experience,
+it enhances retention, simplifies complex concepts, and makes learning more intuitive, effective, and enjoyable.

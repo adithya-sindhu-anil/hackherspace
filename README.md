@@ -1,3 +1,21 @@
 # Knowloop
 
-knowloop is an innovate solution designed specifically for students to overcome challenge of info
+knowloop is an innovate solution designed specifically
+for students to overcome challenge of info overload
+and forgetfullness.
+Our platform takes a unique approach to learning by 
+converting academic texts and PDFs into engaging, bite-
+sized chunks, presented in a scrolling reels format.
+
+## Table Of Contents
+
+-problem statement and solution
+-textstack
+-features
+-future scope
+-feasibility
+
+## problem statement and solution
+
+
+

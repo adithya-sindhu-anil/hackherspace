@@ -11,9 +11,11 @@ sized chunks, presented in a scrolling reels format.
 
 -problem statement and solution
 -textstack
+- setup and installisation
 -features
 -future scope
 -feasibility
+-team members
 
 ## problem statement and solution
 
@@ -29,6 +31,12 @@ effective, and enjoyable.
 
 FRONTEND : HTML , Javascript , css
 BACKEND : Python  Flask
+
+## Setup and installisation
+
+FRONTEND : HTML , Javascript , css
+BACKEND : Python  Flask
+
 
 ## features
 
@@ -52,4 +60,7 @@ content for a fee),or collaboration with educational
 instituitions. Students are familiar with reel-based platforms like 
 Instagram and TikTok, ensuring easy adaptation to the app.
 
+## team members 
 
+Adithya A.S.
+Niyatha Suresh R.
